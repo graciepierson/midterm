@@ -190,4 +190,45 @@ header h1 {
     width: 100%;
  }
 
+@media screen and (max-width: 375px) { 
+.stories {
+    width: 95%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+.stories h2 {
+    padding-top: 10px;
+    padding-bottom: 12px;
+    font-size: 22px;
+}
+.fashion-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100%;
+    transition: .3s;
+} 
+header h1 {
+        font-size: 45px;
+        text-transform: uppercase;
+        text-shadow: 10%;
+        font-weight: bold;
+        letter-spacing: 2px;
+}
+header { 
 
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: white;
+        text-align: center;
+
+}
+.nav li {
+        margin: 10px;
+        display: inline-block;
+        padding-right: 5px;
+        font-size: 15px;
+        letter-spacing: 1px;
+}
+} 

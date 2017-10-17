@@ -80,6 +80,35 @@ img:hover {
         transition: all .5s;
  }
 
+@media screen and (max-width: 375px) { 
 
+header h1 {
+        font-size: 45px;
+        text-transform: uppercase;
+        text-shadow: 10%;
+        font-weight: bold;
+        letter-spacing: 2px;
+}
+header { 
+
+        padding-top: 20px;
+        padding-bottom: 10px;
+        color: white;
+        text-align: center;
+
+}
+.nav li {
+        margin: 10px;
+        display: inline-block;
+        padding-right: 5px;
+        font-size: 15px;
+        letter-spacing: 1px;
+}
+img { 
+    width: 96%; 
+    margin-left: 7px;
+ }
+
+} 
 
 
